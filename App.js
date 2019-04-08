@@ -1,20 +1,6 @@
-import React, {useState} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import Hmr from './hmr';
 
 export default function App() {
-  const [state] = useState('App');
-  return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your {state}!</Text>
-      </View>
-  );
+  return <Hmr />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
