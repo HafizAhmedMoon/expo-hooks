@@ -1,6 +1,10 @@
+.idea/dictionaries
+.idea/vcs.xml.xml
+.idea/workspace.xml
 node_modules/**/*
 .expo/*
 npm-debug.*
+.yarn-error*
 *.jks
 *.p12
 *.key

@@ -1,14 +1,13 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {useState} from 'react';
+import {StyleSheet, Text, View} from 'react-native';
 
-export default class App extends React.Component {
-  render() {
-    return (
+export default function App() {
+  const [state] = useState('App');
+  return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text>Open up App.js to start working on your {state}!</Text>
       </View>
-    );
-  }
+  );
 }
 
 const styles = StyleSheet.create({
