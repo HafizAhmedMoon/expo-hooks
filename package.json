@@ -9,12 +9,15 @@
   },
   "dependencies": {
     "expo": "^32.0.0",
-    "react": "~16.8.6",
+    "react": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.3.tar.gz",
     "react-native-original": "npm:react-native@~0.59.3"
   },
   "devDependencies": {
+    "@types/expo": "^32.0.10",
+    "@types/react-native": "^0.57.42",
     "babel-preset-expo": "^5.0.0",
+    "prettier": "^1.16.4",
     "schedule": "0.4.0"
   },
   "private": true
